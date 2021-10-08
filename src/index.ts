@@ -16,8 +16,8 @@ const SERVICE_ACCOUNT_PRIVATE_KEY = "your private key"
     auth: auth,
     range: "Sheet1",
     valueInputOption: "RAW",
-    resource: {
+    requestBody: {
       values: [["hello", "world"]]
     }
-  } as any)
+  })
 })()
