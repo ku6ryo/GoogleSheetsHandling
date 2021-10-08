@@ -1,0 +1,1 @@
+An example how to append a row to a Google Sheet by TypeScript.
